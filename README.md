@@ -26,7 +26,7 @@ git clone https://github.com/alokpratapjadon/My-Portfolio.git
 2. Navigate to the project directory:
 
 ```bash
-cd reactjs18-3d-portfolio
+cd My-Portfolio
 ```
 
 3. Install the dependencies:
