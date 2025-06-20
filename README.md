@@ -20,7 +20,7 @@ Follow these steps to get the project running on your local machine:
 1. Clone the repository:
 
 ```bash
-git clone https://github.com/ladunjexa/reactjs18-3d-portfolio.git
+git clone https://github.com/alokpratapjadon/My-Portfolio.git
 ```
 
 2. Navigate to the project directory:
@@ -88,4 +88,4 @@ This project is licensed under the MIT License. See the [LICENSE](./LICENSE) fil
 
 ## Contact
 
-For any questions or feedback, please contact the project owner via GitHub: [ladunjexa](https://github.com/ladunjexa)
+For any questions or feedback, please contact the project owner via GitHub: [Alok Pratap Jadon](https://github.com/alokpratapjadon)
