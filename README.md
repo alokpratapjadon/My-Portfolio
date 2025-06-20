@@ -1,132 +1,91 @@
 # 3D Portfolio
 
-<!-- GitHub badges -->
+## Project Description
 
-[![Latest release](https://img.shields.io/github/v/release/ladunjexa/reactjs18-3d-portfolio?label=Latest%20release&style=social)](https://github.com/ladunjexa/reactjs18-3d-portfolio/releases/tag/v0.1.0)
-[![Stars](https://img.shields.io/github/stars/ladunjexa/reactjs18-3d-portfolio?style=social)](https://github.com/ladunjexa/reactjs18-3d-portfolio/stargazers)
-[![Fork](https://img.shields.io/github/forks/ladunjexa/reactjs18-3d-portfolio?style=social)](https://github.com/ladunjexa/reactjs18-3d-portfolio/forks)
-[![GitHub commits](https://img.shields.io/github/commit-activity/t/ladunjexa/reactjs18-3d-portfolio?style=social&logo=github)](https://github.com/ladunjexa/reactjs18-3d-portfolio/commits)
-[![Pull requests](https://img.shields.io/github/issues-pr/ladunjexa/reactjs18-3d-portfolio?style=social&logo=github)](https://github.com/ladunjexa/reactjs18-3d-portfolio/pulls)
+This is a 3D Portfolio website built using React.js and Three.js. It is a fully responsive and interactive portfolio showcasing 3D graphics and animations.
 
-![demo](.github/README_ASSETS/3d-portfolio.png)
+## Prerequisites
 
-[![ladunjexa](https://custom-icon-badges.demolab.com/badge/made%20by%20-ladunjexa-556bf2?logo=github&logoColor=white&labelColor=101827)](https://github.com/luadnjexa)
-[![License](https://img.shields.io/github/license/ladunjexa/reactjs18-3d-portfolio?color=dddddd&labelColor=000000)](https://github.com/ladunjexa/reactjs18-3d-portfolio/blob/main/LICENSE)
-[![Top Language](https://img.shields.io/github/languages/top/ladunjexa/reactjs18-3d-portfolio?logo=github&logoColor=%23007ACC&label=TypeScript)](https://www.typescriptlang.org/)
-[![Contributors](https://img.shields.io/github/contributors/ladunjexa/reactjs18-3d-portfolio?style=flat&color=orange&label=Contributors)](https://github.com/ladunjexa/reactjs18-3d-portfolio/graphs/contributors)
-![Release](https://img.shields.io/github/release/ladunjexa/reactjs18-3d-portfolio.svg)
-![PRs](https://img.shields.io/badge/PRs-welcome-ff69b4.svg?style=shields)
-![deployment](https://img.shields.io/github/deployments/ladunjexa/reactjs18-3d-portfolio/Production?logo=vercel&label=Website)
-[![Known Vulnerabilities](https://snyk.io/test/github/ladunjexa/reactjs18-3d-portfolio/badge.svg)](https://snyk.io/test/github/ladunjexa/reactjs18-3d-portfolio)
+Before you begin, ensure you have met the following requirements:
 
-## 🌐 Live Demo
+- You have installed [Node.js](https://nodejs.org/en/) (version 14 or higher recommended).
+- You have installed [npm](https://www.npmjs.com/get-npm) (comes with Node.js).
+- You have installed [Git](https://git-scm.com/downloads).
+- You have Visual Studio Code installed. Download it from [here](https://code.visualstudio.com/).
 
-Explore the live demonstration of the project:
-[reactjs18-3d-portfolio](https://reactjs18-3-d-portfolio.vercel.app/)
+## Installation
 
-## 📝 Description
+Follow these steps to get the project running on your local machine:
 
-**3D Portfolio** is a well-designed and fully functional portfolio website that is built with
-React.js and Three.js. It is a fully responsive website that works well on all devices.
-
-<details><summary><b>Folder Structure</b></summary>
+1. Clone the repository:
 
 ```bash
-reactjs18-3d-portfolio/
-├── src/
-├   ├── App.tsx
-├   ├── globals.css
-├   ├── main.tsx
-├   ├── vite.env.d.ts
-├   ├── components/
-├   ├   ├── atoms/
-├   ├   ├   └── Header.tsx
-├   ├   ├── canvas/
-├   ├   ├   ├── Ball.tsx
-├   ├   ├   ├── Computers.tsx
-├   ├   ├   ├── Earth.tsx
-├   ├   ├   ├── Stars.tsx
-├   ├   ├   └── index.ts
-├   ├   ├── layout/
-├   ├   ├   ├── Loader.tsx
-├   ├   ├   └── Navbar.tsx
-├   ├   ├── sections/
-├   ├   ├   ├── About.tsx
-├   ├   ├   ├── Contact.tsx
-├   ├   ├   ├── Experience.tsx
-├   ├   ├   ├── Feedbacks.tsx
-├   ├   ├   ├── Hero.tsx
-├   ├   ├   ├── Tech.tsx
-├   ├   ├   ├── Works.tsx
-├   ├   ├   └── page.tsx
-├   ├   └── index.ts
-├   ├── constants/
-├   ├   ├── config.ts
-├   ├   ├── styles.ts
-├   ├   └── index.ts
-├   ├── hoc/
-├   ├   ├── SectionWrapper.tsx
-├   ├   └── index.ts
-├   ├── utils/
-├   ├   └── motion.ts
-├   ├── types/
-├   ├   └── index.d.ts
-├   └── assets/
-├       ├── company/
-├       ├   └── [[...]].{svg,png}
-├       ├── tech/
-├       ├   └── [[...]].{svg,png}
-├       ├── [[...]].{svg,png}
-├       └── index.ts
-├── public/
-├   ├── desktop_pc
-├   ├   ├── textures/[[...]].png
-├   ├   ├── license.txt
-├   ├   ├── scene.bin
-├   ├   └── scene.gltf
-├   ├── planet
-├   ├   ├── textures/[[...]].png
-├   ├   ├── license.txt
-├   ├   ├── scene.bin
-├   ├   └── scene.gltf
-├   ├── logo.png
-├   └── logo.svg
-├── .env
-├── .eslintignore
-├── .eslintrc.cjs
-├── .gitignore
-├── .prettierignore
-├── .prettierrc.cjs
-├── index.html
-├── LICENSE
-├── README.md
-├── package.json
-├── postcss.config.cjs
-├── tailwind.config.cjs
-├── tsconfig.json
-├── tsconfig.node.json
-└── vite.config.js
+git clone https://github.com/ladunjexa/reactjs18-3d-portfolio.git
 ```
 
-</details>
+2. Navigate to the project directory:
 
-## 📖 Table of Contents
+```bash
+cd reactjs18-3d-portfolio
+```
 
-<details><summary>Table of Contents</summary>
+3. Install the dependencies:
 
-- [Live Demo](#-live-demo)
-- [Description](#-description)
-- [Technologies Used](#-technologies-used)
-- [Get Started](#-get-started)
-  - [Prerequisites](#-prerequisites)
-  - [Installation and Run Locally](#-installation-and-run-locally)
-  - [Scripts](#-scripts)
-- [Environment Variables](#-environment-variables)
-- [Deployment](#-deployment)
-  - [Deploy to production (manual)](#-deploy-to-production-manual)
-  - [Deploy on Vercel (recommended)](#-deploy-on-vercel-recommended)
-  - [Deploy on Netlify](#-deploy-on-netlify)
-- [Acknowledgements](#-acknowledgements)
-- [References](#-references)
-- [Contact Us](#-contact-us)
-- [License](#-license)
+```bash
+npm install
+```
+
+## Running the Project in Visual Studio Code
+
+1. Open Visual Studio Code.
+
+2. Open the project folder by selecting **File > Open Folder...** and choosing the `reactjs18-3d-portfolio` directory.
+
+3. Open the integrated terminal in VS Code by selecting **Terminal > New Terminal**.
+
+4. Start the development server by running:
+
+```bash
+npm run dev
+```
+
+5. Open your browser and go to [http://localhost:5173](http://localhost:5173) to view the portfolio.
+
+## Additional Information
+
+- The project uses EmailJS for sending emails from the client side. You need to create an EmailJS account and set the following environment variables in a `.env` file in the project root:
+
+```
+VITE_EMAILJS_SERVICE_ID=<your_service_id>
+VITE_EMAILJS_TEMPLATE_ID=<your_template_id>
+VITE_EMAIL_JS_ACCESS_TOKEN=<your_access_token>
+```
+
+- To build the project for production, run:
+
+```bash
+npm run build
+```
+
+- To preview the production build locally, run:
+
+```bash
+npm run preview
+```
+
+## Technologies Used
+
+- React.js
+- Three.js
+- TypeScript
+- Vite
+- Tailwind CSS
+- Framer Motion
+
+## License
+
+This project is licensed under the MIT License. See the [LICENSE](./LICENSE) file for details.
+
+## Contact
+
+For any questions or feedback, please contact the project owner via GitHub: [ladunjexa](https://github.com/ladunjexa)
