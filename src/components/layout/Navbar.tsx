@@ -10,7 +10,7 @@ import githubLogo from "../../assets/github.png";
 import linkedinLogo from "../../assets/inkedin copy.svg";
 
 const Navbar = () => {
-  const [active, setActive] = useState<string | null>(null);
+  const [active, /* setActive */] = useState<string | null>(null);
   const [toggle, setToggle] = useState(false);
   const [scrolled, setScrolled] = useState(false);
   const [showFullscreen, setShowFullscreen] = useState(false); // State for fullscreen logo
