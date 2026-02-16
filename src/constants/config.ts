@@ -74,7 +74,7 @@ export const config: TConfig = {
     about: {
       p: "Introduction",
       h2: "Overview",
-      content: `I'm a final year B.Tech CSE student passionate about frontend development with a strong foundation in HTML, CSS, JavaScript, React, and Angular. I also have basic knowledge of backend technologies like Node.js and SQL, allowing me to build complete web applications. Always eager to learn and grow, I stay updated with the latest trends in web development. Let’s create something amazing together!`,
+      content: `Advanced Associate Software Engineer at Accenture | B.Tech CSE Graduate \n Passionate about creating impactful digital experiences through modern web technologies. Focused on delivering high-quality solutions while driving continuous improvement and innovation.`,
     },
     experience: {
       p: "What I have done so far",

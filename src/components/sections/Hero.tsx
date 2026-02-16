@@ -20,8 +20,8 @@ const Hero = () => {
             Hi, I'm <span className="text-[#915EFF]">{config.hero.name}</span>
           </h1>
           <p className="font-semibold lg:text-[40px] sm:text-[32px] xs:text-[28px] text-[24px] mt-1">
-            <span className="text-white">Frontend </span>
-            <span className="text-[#915EFF]">Developer</span>
+            <span className="text-white">Software </span>
+            <span className="text-[#915EFF]">Engineer</span>
           </p>
           <p className={`${styles.heroSubText} text-white-100 mt-2`}>
             {config.hero.p[0]} <br className="hidden sm:block" />
